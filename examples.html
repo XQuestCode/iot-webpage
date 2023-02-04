@@ -1,0 +1,539 @@
+<!doctype html>
+<html lang="en">
+    <head>
+        <meta charset="utf-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+        <title>Bootstrap demo</title>
+        <link
+            href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css"
+            rel="stylesheet"
+            integrity="sha384-GLhlTQ8iRABdZLl6O3oVMWSktQOp6b7In1Zl3/Jr59b6EGGoI1aFkw7cmDA6j6gD"
+            crossorigin="anonymous">
+    </head>
+    <body>
+        <link rel="stylesheet" href="./css/styles.css">
+        <!-- navbar -->
+        <nav class="navbar navbar-expand-lg bg-body-tertiary"
+            data-bs-theme="dark">
+            <div class="container-fluid">
+                <a class="navbar-brand" href="/index.html">
+                    <img src="/iot logo.png" alt="Logo" width="30" height="24"
+                        class="d-inline-block align-text-top">
+
+                    Internet Of Things</a>
+
+                <button class="navbar-toggler" type="button"
+                    data-bs-toggle="collapse"
+                    data-bs-target="#navbarSupportedContent"
+                    aria-controls="navbarSupportedContent" aria-expanded="false"
+                    aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <div class="collapse navbar-collapse"
+                    id="navbarSupportedContent">
+                    <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page"
+                                href="/about.html">About</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#">Examples</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle"
+                                href="/examples.html"
+                                role="button" data-bs-toggle="dropdown"
+                                aria-expanded="false">
+                                Topics
+                            </a>
+                            <ul class="dropdown-menu">
+                                <li><a class="dropdown-item"
+                                        href="/history.html">History</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/development.html">Development</a></li>
+                                <li><hr class="dropdown-divider"></li>
+                                <li><a class="dropdown-item"
+                                        href="/applications.html">Applications</a></li>
+                                <li><a class="dropdown-item"
+                                        href="/future.html">Future</a></li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <form class="d-flex" role="search">
+                        <input class="form-control me-2" type="search"
+                            placeholder="Search" aria-label="Search">
+                        <button class="btn btn-outline-success" type="submit">Search</button>
+                    </form>
+                </div>
+            </div>
+        </nav>
+        <!-- examples -->
+        <div class="row">
+            <div class="col">
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2018/12/3-1.jpg"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 style="color:rgb(36, 255, 215)" class="card-title">Google
+                            Home Voice Controller</h5>
+                        <p class="card-text-bg-dark">Google Home Voice
+                            Controller is a smart IoT device which allows the
+                            user to enjoy features like media, alarms, lights,
+                            thermostats, control the volume and much more
+                            functions just by their voice.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li style="color:rgb(36, 36, 255)"
+                            class="list-group-item">Price - US $ 130</li>
+                        <li class="list-group-item">Top Features:
+                            <ul>
+                                <li>Google home allows a user to listen to
+                                    media.</li>
+                                <li>Let’s the user to control TV and speakers.</li>
+                                <li>It is capable of managing timers and alarms.</li>
+                                <li>It can remotely handle the volume and home
+                                    lights as well.</li>
+                                <li>It helps the user to plan their day and get
+                                    things done automatically.</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://www.youtube.com/watch?v=B28oXXyqZJQ"
+                            class="btn btn-outline-danger">YouTube Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://www.cnet.com/a/img/resize/78d129ae1c47078d074cb355e3ad81275ccf077d/hub/2017/05/04/dc36ff40-6af9-4dfa-8fb6-232068ee5aad/amazon-dash.jpg?auto=webp&fit=crop&height=675&width=1200"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 style="color:rgb(36, 255, 215)" class="card-title">Amazon
+                            Dash Button</h5>
+                        <p class="card-text-bg-dark">Amazon Dash Button is
+                            basically a device that gets connected over internet
+                            Wi-Fi and makes sure that the user does not lack
+                            important household items like soft drinks, grocery
+                            material, medical and personal care, kids and any
+                            pet items ever again.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li style="color:rgb(36, 36, 255)"
+                            class="list-group-item">Price - US $ 4.99</li>
+                        <li class="list-group-item">Top Features:
+                            <ul>
+                                <li>It allows the user to order products quickly
+                                    and there is no need to recall the message
+                                    again and it also helps to reduce the time
+                                    frame for searching the required product by
+                                    the user.</li>
+                                <li>Amazon Dash Button also allows the user to
+                                    reorder from popular brands – like Bounty,
+                                    Tide, Cottonelle, Glad, Clorox etc.</li>
+                                <li>It does not accept fresh order if the prior
+                                    order is not complete unless the user allows
+                                    multiple orders.</li>
+                                <li>It is a good and reliable IoT product that
+                                    is developed for making the user’s lifestyle
+                                    simple and easy.</li>
+                            </ul>
+                        </li>
+
+                    </ul>
+                    <div class="card-body">
+                        <a href="https://www.youtube.com/watch?v=mPJ_joCCmeQ"
+                            class="btn btn-outline-danger">YouTube Link</a>
+                    </div>
+                </div>
+            </div>
+            <div class="col">
+                <div class="card text-bg-dark mb-3" style="max-width: 18rem;">
+                    <img class="card-img-top"
+                        src="https://spectrum.ieee.org/media-library/robot-with-round-white-head-and-a-coned-shaped-body-sits-on-the-floor-in-front-of-wooden-kitchen-cabinets.jpg?id=25583660&width=980"
+                        class="card-img-top" alt="...">
+                    <div class="card-body">
+                        <h5 style="color:rgb(36, 255, 215)" class="card-title">Kuri
+                            Mobile Robot</h5>
+                        <p class="card-text-bg-dark">Kuri is the first sort of
+                            home robot and most popular too. It is specifically
+                            designed for entertainment. Kuri interacts with the
+                            users and captures moments all around the house
+                            daily.</p>
+                    </div>
+                    <ul class="list-group list-group-flush">
+                        <li style="color:rgb(36, 36, 255)"
+                            class="list-group-item">Price - US $ 700</li>
+                        <li class="list-group-item">Top Features:
+                            <ul>
+                                <li>Kuri has capacitive touch sensors and HD
+                                    camera.</li>
+                                <li>It is integrated with gestural mechanics and
+                                    microphones.</li>
+                                <li>It has heart light and speakers.</li>
+                                <li>It includes integrated mapping sensors and
+                                    drives system.</li>
+                                <li>It has a good processor and a smooth <a
+                                        href="https://www.softwaretestinghelp.com/best-wireless-charger/">charging
+                                        pad.</a></li>
+                            </ul>
+
+                        </ul>
+                        <div class="card-body">
+                            <a
+                                href="https://www.youtube.com/watch?v=RcOD-1-0css"
+                                class="btn btn-outline-danger">YouTube Link</a>
+                        </div>
+                    </div>
+                </div>
+                <div class="col">
+                    <div class="card text-bg-dark mb-3" style="max-width:
+                        18rem;">
+                        <img class="card-img-top"
+                            src="https://www.cnet.com/a/img/resize/abc99bcb7a91df968f85ef643a634589203deed1/hub/2017/10/09/8a03ff49-0686-49b5-a7ab-2a1b780ed70f/august-doorbell-cam-pro-product-photos-1.jpg?auto=webp&width=768"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 style="color:rgb(36, 255, 215)"
+                                class="card-title">August Doorbell Cam</h5>
+                            <p class="card-text-bg-dark">August Doorbell Cam is
+                                an effective IoT innovation. August Doorbell Cam
+                                allows you to answer your door from anywhere or
+                                remote location. It constantly checks your doors
+                                and also captures motion changes in your
+                                doorstep.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li style="color:rgb(36, 36, 255)"
+                                class="list-group-item">Price - US $ 199</li>
+                            <li class="list-group-item">Top Features:
+                                <ul>
+                                    <li>&nbsp;Doorbell Cam pairs with all August
+                                        Smart Locks to easily let guests into
+                                        your home.</li>
+                                    <li>The integrated floodlight delivers
+                                        clear, full-color HD video even
+                                        full-color.</li>
+                                    <li>It constantly monitors your doorstep and
+                                        will click the moments leading up to a
+                                        motion alert.</li>
+                                    <li>Free 24 hour video recording.</li>
+                                    <li>It comes with a speedy and hassle-free
+                                        installation process.</li>
+                                </ul>
+                            </li>
+
+                        </ul>
+                        <div class="card-body">
+                            <a href="https://geni.us/BojdS" class="btn
+                                btn-outline-success">Buy here</a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col">
+                    <div class="card text-bg-dark mb-3" style="max-width:
+                        18rem;">
+                        <img class="card-img-top"
+                            src="https://i0.wp.com/www.alphr.com/wp-content/uploads/2017/07/foobot_air_quality_monitor_2.jpg?fit=2000%2C1125&ssl=1"
+                            class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 style="color:rgb(36, 255, 215)"
+                                class="card-title">Footbot Air Quality Monitor</h5>
+                            <p class="card-text-bg-dark">Foobot is a reliable
+                                IoT device which is helpful in measuring indoor
+                                pollution and leads to improved air quality in
+                                houses, workplace, and indoor public spaces. It
+                                often gives accurate results.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li style="color:rgb(36, 36, 255)"
+                                class="list-group-item">Price - US $ 199</li>
+                            <li class="list-group-item">Top Features:
+                                <ul>
+                                    <li>It cleans the air pollution.</li>
+                                    <li>Keeps the humidity and temperature
+                                        levels in check.</li>
+                                    <li>Helps to develop more focus and energy
+                                        by breathing fresh air.</li>
+                                    <li>Supports to increase the lifespan of the
+                                        users.</li>
+                                    <li>It has a very fast and simple
+                                        installation process.</li>
+                                </ul>
+
+                            </ul>
+                            <div class="card-body">
+                                <a
+                                    href="https://geni.us/WRUjMzw"
+                                    class="btn btn-outline-success">Buy here</a>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col">
+                        <div class="card text-bg-dark mb-3"
+                            style="max-width:
+                            18rem;">
+                            <img class="card-img-top"
+                                src="https://www.the-ambient.com/media/imager/201910/29442-original.jpg"
+                                class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <h5 style="color:rgb(36, 255, 215)"
+                                    class="card-title">Philips Hue Bulbs and
+                                    Lighting System</h5>
+                                <p class="card-text-bg-dark">Philips Hue is
+                                    a
+                                    very famous IoT device and is used as a
+                                    personal wireless lighting system that
+                                    allows to control your light and create
+                                    the
+                                    right ambiance for every moment.
+
+                                    It makes the smart home to live with the
+                                    most connected lights in the world.</p>
+                            </div>
+                            <ul class="list-group list-group-flush">
+                                <li style="color:rgb(36, 36, 255)"
+                                    class="list-group-item">Price - US $ 30
+                                    - US
+                                    $ 100</li>
+                                <li class="list-group-item">Top Features:
+                                    <ul>
+                                        <li>Smart and away from home
+                                            control.</li>
+                                        <li>Light schedules and comfort
+                                            dimming.</li>
+                                        <li>Create your ambiance, wake up,
+                                            well
+                                            being, etc.</li>
+                                        <li>Sync with music and movies.</li>
+                                    </ul>
+
+                                </ul>
+                                <div class="card-body">
+                                    <a
+                                        href="https://geni.us/igEQJ9"
+                                        class="btn btn-outline-success">Buy
+                                        here</a>
+                                </div>
+                            </div>
+                        </div>
+
+
+                        <div class="col">
+                            <div class="card text-bg-dark mb-3"
+                                style="max-width:
+                                18rem;">
+                                <img class="card-img-top"
+                                    src="https://i0.wp.com/iotbusinessnews.com/WordPress/wp-content/uploads/BitDefender-Box-pic2.jpg?fit=400%2C285&ssl=1&resize=1280%2C720"
+                                    class="card-img-top" alt="...">
+                                <div class="card-body">
+                                    <h5 style="color:rgb(36, 255, 215)"
+                                        class="card-title">Bitdefender BOX
+                                        IoT
+                                        Security Solution</h5>
+                                    <p class="card-text-bg-dark">Bitdefender
+                                        Box
+                                        is a very useful IoT device. It is
+                                        the
+                                        Smart Home Cybersecurity Hub that
+                                        prevents various Internet-connected
+                                        devices from malware, stolen
+                                        passwords,
+                                        identity theft, spying etc.</p>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li style="color:rgb(36, 36, 255)"
+                                        class="list-group-item">Price - US $
+                                        179.99</li>
+                                    <li class="list-group-item">Top
+                                        Features:
+                                        <ul>
+                                            <li>It provides Double-Clad Home
+                                                Network Security to users.</li>
+                                            <li>Bit defender comes with a
+                                                high-performance ratio.</li>
+                                            <li>It provides a unique and
+                                                rich
+                                                feature of parental control.</li>
+                                            <li>It comes with award-winning
+                                                technology.</li>
+                                        </ul>
+
+                                    </ul>
+                                    <div class="card-body">
+                                        <a
+                                            href="https://geni.us/WQEef"
+                                            class="btn btn-outline-success">Buy
+                                            here</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card text-bg-dark mb-3"
+                                    style="max-width:
+                                    18rem;">
+                                    <img class="card-img-top"
+                                        src="https://www.softwaretestinghelp.com/wp-content/qa/uploads/2018/12/18.jpg"
+                                        class="card-img-top" alt="...">
+                                    <div class="card-body">
+                                        <h5 style="color:rgb(36, 255, 215)"
+                                            class="card-title">Particle Photon
+                                            Wi-Fi with Headers</h5>
+                                        <p class="card-text-bg-dark">This is the
+                                            particles IoT board which provides
+                                            everything that a user needs to
+                                            build a connection project. It makes
+                                            prototyping simple and easy due to
+                                            plugins.</p>
+                                    </div>
+                                    <ul class="list-group list-group-flush">
+                                        <li style="color:rgb(36, 36, 255)"
+                                            class="list-group-item">Price - US
+                                            $19 - US $25</li>
+                                        <li class="list-group-item">Top
+                                            Features:
+                                            <ul>
+                                                <li>It has an open source
+                                                    design.</li>
+                                                <li>It comes with a real-time
+                                                    operating system.</li>
+                                                <li>It has particle WIFI module
+                                                    and RGB LED.</li>
+                                                <li>It also has pre-soldered
+                                                    headers.</li>
+                                            </ul>
+
+                                        </ul>
+                                        <div class="card-body">
+                                            <a
+                                                href="https://www.youtube.com/watch?v=6Y9bD25zxHk"
+                                                class="btn btn-outline-danger">YouTube
+                                                Link</a>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="row">
+                                <div class="col">
+                                    <div class="card card text-bg-dark mb-3"
+                                        aria-hidden="true" style="max-width:
+                                        18rem;">
+                                        <img
+                                            src="https://miro.medium.com/max/1400/1*e_Loq49BI4WmN7o9ItTADg.gif"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title
+                                                placeholder-glow">
+                                                <span class="placeholder col-6"></span>
+                                            </h5>
+                                            <p class="card-text
+                                                placeholder-glow">
+                                                <span class="placeholder col-7"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-6"></span>
+                                                <span class="placeholder col-8"></span>
+                                            </p>
+                                            <a href="#" tabindex="-1" class="btn
+                                                btn-primary disabled placeholder
+                                                col-6"></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col">
+                                    <div class="card card text-bg-dark mb-3"
+                                        aria-hidden="true" style="max-width:
+                                        18rem;">
+                                        <img
+                                            src="https://miro.medium.com/max/1400/1*e_Loq49BI4WmN7o9ItTADg.gif"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title
+                                                placeholder-glow">
+                                                <span class="placeholder col-6"></span>
+                                            </h5>
+                                            <p class="card-text
+                                                placeholder-glow">
+                                                <span class="placeholder col-7"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-6"></span>
+                                                <span class="placeholder col-8"></span>
+                                            </p>
+                                            <a href="#" tabindex="-1" class="btn
+                                                btn-primary disabled placeholder
+                                                col-6"></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col">
+                                    <div class="card card text-bg-dark mb-3"
+                                        aria-hidden="true" style="max-width:
+                                        18rem;">
+                                        <img
+                                            src="https://miro.medium.com/max/1400/1*e_Loq49BI4WmN7o9ItTADg.gif"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title
+                                                placeholder-glow">
+                                                <span class="placeholder col-6"></span>
+                                            </h5>
+                                            <p class="card-text
+                                                placeholder-glow">
+                                                <span class="placeholder col-7"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-6"></span>
+                                                <span class="placeholder col-8"></span>
+                                            </p>
+                                            <a href="#" tabindex="-1" class="btn
+                                                btn-primary disabled placeholder
+                                                col-6"></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                                <div class="col">
+                                    <div class="card card text-bg-dark mb-3"
+                                        aria-hidden="true" style="max-width:
+                                        18rem;">
+                                        <img
+                                            src="https://miro.medium.com/max/1400/1*e_Loq49BI4WmN7o9ItTADg.gif"
+                                            class="card-img-top" alt="...">
+                                        <div class="card-body">
+                                            <h5 class="card-title
+                                                placeholder-glow">
+                                                <span class="placeholder col-6"></span>
+                                            </h5>
+                                            <p class="card-text
+                                                placeholder-glow">
+                                                <span class="placeholder col-7"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-4"></span>
+                                                <span class="placeholder col-6"></span>
+                                                <span class="placeholder col-8"></span>
+                                            </p>
+                                            <a href="#" tabindex="-1" class="btn
+                                                btn-primary disabled placeholder
+                                                col-6"></a>
+                                        </div>
+                                    </div>
+
+                                </div>
+                            </div>
+
+                            <script
+                                src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.bundle.min.js"
+                                integrity="sha384-w76AqPfDkMBDXo30jS1Sgez6pr3x5MlQ1ZAGC+nuZB+EYdgRZgiwxhTBTkF7CXvN"
+                                crossorigin="anonymous"></script>
+                        </body>
+                    </html>
