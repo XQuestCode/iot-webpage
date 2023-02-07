@@ -1,5 +1,5 @@
 .large-header {
-   position: relative;
+   position: fixed;
    width: 100%;
    background: #111;
    overflow: hidden;
